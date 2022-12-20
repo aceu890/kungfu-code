@@ -5,7 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/preload.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+
     <!-- font awesome 5.15.4 cdn link -->
     <link
       rel="stylesheet"
@@ -13,21 +17,140 @@
     />
   </head>
   <body>
+    <!---TODO: Loader1 start----------->
+    <div class="contenedor_loader">
+      <div class="loader"></div>
+    </div>
+    
+  
+    <!---TODO: Navbar start----------->
     <nav class="menu">
       <label class="logo">KUNG-FU CODE</label>
       <ul class="menu_items">
         <li class="active"><a href="#">Inicio</a></li>
-        <li><a href="#">Acerca</a></li>
-        <li><a href="#">Servicios</a></li>
+        <li><a href="#">Cursos</a></li>
+        <li><a href="#">Guias</a></li>
         <li><a href="#">Portafolio</a></li>
-        <li><a href="#">Blog</a></li>
+        <li><a href="#">π</a></li>
         <li><a href="#">Contacto</a></li>
       </ul>
       <span class="btn_menu">
         <i class="fas fa-bars"></i>
       </span>
     </nav>
+    
 
-    <script src="./app.js"></script>
+    <!-- TODO: HERO -------------------->
+    <section id="hero">
+      <div class="container">
+      <div class="info">
+        <h1>Trabaja Duro Durante muchos años para adquirir destreza</h1>
+        <h2>Lorem ipsum dolor sit.</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita incidunt vel nostrum iusto, ut architecto explicabo ipsa eligendi error doloribus.</p>
+        <a href="#">Click Me</a>
+      </div>
+    </div>
+    </section>
+
+    <!-- TODO: info cards  -->
+    <h2 class="title">My Travels</h2>
+    <div class="list-container">
+        <figure class="photo-item">
+            <img src="./assets/img/html5.png" alt="Place image">
+            <figcaption>
+                <div class="description">
+                    <p>Lorem ipsum dolor sit.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi voluptatem doloremque tempora?</p>
+                </div>
+                <div class="base">
+                    <p>USA, <span>Cape Kiwanda</span></p>
+                    <div class="social-links">
+                        <a href="#"><i class="far fa-share-square"></i></a>
+                        <a href="#"><i class="far fa-comment"></i></a>
+                        <a href="#"><i class="far fa-heart"></i></a>
+                    </div>
+                </div>
+            </figcaption> 
+
+        </figure>
+
+        <figure class="photo-item">
+            <img src="./assets/img/css.png" alt="Place image">
+            <figcaption>
+                <div class="description">
+                    <p>Lorem ipsum dolor sit.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi voluptatem doloremque tempora?</p>
+                </div>
+                <div class="base">
+                    <p>CA, <span>Gaviota</span></p>
+                    <div class="social-links">
+                        <a href="#"><i class="far fa-share-square"></i></a>
+                        <a href="#"><i class="far fa-comment"></i></a>
+                        <a href="#"><i class="far fa-heart"></i></a>
+                    </div>
+                </div>
+            </figcaption>  
+
+        </figure>
+
+        <figure class="photo-item">
+            <img src="./assets/img/js.png" alt="Place image">
+            <figcaption>
+                <div class="description">
+                    <p>Lorem ipsum dolor sit.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi voluptatem doloremque tempora?</p>
+                </div>
+                <div class="base">
+                    <p>Italy, <span>Cime di Lavaredo</span></p>
+                    <div class="social-links">
+                        <a href="#"><i class="far fa-share-square"></i></a>
+                        <a href="#"><i class="far fa-comment"></i></a>
+                        <a href="#"><i class="far fa-heart"></i></a>
+                    </div>
+                </div>
+            </figcaption>  
+
+        </figure>
+
+        <figure class="photo-item">
+            <img src="./assets/img/react.png" alt="Place image">
+            <figcaption>
+                <div class="description">
+                    <p>Lorem ipsum dolor sit.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi voluptatem doloremque tempora?</p>
+                </div>
+                <div class="base">
+                    <p>India, <span>New Delhi</span></p>
+                    <div class="social-links">
+                        <a href="#"><i class="far fa-share-square"></i></a>
+                        <a href="#"><i class="far fa-comment"></i></a>
+                        <a href="#"><i class="far fa-heart"></i></a>
+                    </div>
+                </div>
+            </figcaption>  
+
+        </figure>
+
+        <figure class="photo-item">
+            <img src="./assets/img/react native & firebase.png" alt="Place image">
+            <figcaption>
+                <div class="description">
+                    <p>Lorem ipsum dolor sit.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi voluptatem doloremque tempora?</p>
+                </div>
+                <div class="base">
+                    <p>Greece, <span>Pani Hill</span></p>
+                    <div class="social-links">
+                        <a href="#"><i class="far fa-share-square"></i></a>
+                        <a href="#"><i class="far fa-comment"></i></a>
+                        <a href="#"><i class="far fa-heart"></i></a>
+                    </div>
+                </div>
+            </figcaption>  
+
+        </figure>
+    </div>
+
+    <script src="./assets/js/app.js"></script>
   </body>
 </html>
